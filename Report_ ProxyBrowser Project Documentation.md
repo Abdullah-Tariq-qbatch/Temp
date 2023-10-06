@@ -215,7 +215,7 @@ Currently, we have three repositories: one dedicated to Front-end development, a
     3.1. **Setting Up the Development Environment**
     - **To run the project in development mode, execute the following command:**
    
-        -     REACT_SERVER_URL=http://<device_ip_address>:3000 yarn dev
+        -     REACT_SERVER_URL=http://127.0.0.1:3000 yarn dev
 
     3.2. **Project Structure**
     The project follows a directory structure similar to that of a basic **React App**. It is organized as follows:
