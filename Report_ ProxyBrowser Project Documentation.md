@@ -196,11 +196,11 @@ Currently, we have three repositories: one dedicated to Front-end development, a
 
 - **Incognito Window:** Incognito Windows prioritizes user privacy by not recording browsing history, storing cookies, cached data, or autofilling data.
 
-![Browser Incognito Screen](/images/image-17.png)
+![Browser Incognito Screen](/images/image-18.png)
 
 - **Browser Theme Settings:** Users can select themes (light, dark, custom) and customize the top bar variant and bookmarks settings.
 
-![Browser Incognito Screen](/images/image-18.png)
+![Browser Incognito Screen](/images/image-17.png)
 
 - **Search Engine**: In wexond-browser there is an option for the user to select his search engine on a list of search engines provided. Previously the default engine was Duckduckgo and now we have changed it to Google, so the default engine is Google in our extended version. 
 We achieve this by changing the settings data. First, when a project runs it will store the settings data, cookies, and local storage in a specific directory related to each user, After that It will read from that directory only, to achieve this we have to remove settings and then make the build of the project again.
