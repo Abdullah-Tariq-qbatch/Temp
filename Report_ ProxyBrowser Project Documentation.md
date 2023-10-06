@@ -49,6 +49,7 @@ Currently, we have three repositories: one dedicated to Front-end development, a
 - Browser: \"**wexond-browser-extended**\"
 
 1. **Wexond-Browser-Extended**
+<br />
 1.1. **Setting Up the Development Environment**
 - Before beginning, it\'s crucial to ensure that your current Node.js and npm versions are compatible with the project\'s requirements. Please follow these steps to prepare your environment:
 - **To verify your node and yarn version**
