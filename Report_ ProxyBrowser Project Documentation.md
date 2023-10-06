@@ -112,7 +112,6 @@ Currently, we have three repositories: one dedicated to Front-end development, a
 
     2.3. **Implementation Approach**
     - **Models:**
-      - **Database Models in proxy-browser-backend:** The project, proxy-browser-backend, includes specific models representing key entities such as User, Location, OTP, PaymentMethod, Plan, and Session.
       - **Direct Mapping to Database Tables:** Each of these models corresponds directly to respective database tables, ensuring a structured and organized data storage approach.
       - **Consistent Querying Components:** These models are integral components employed consistently across the project, facilitating data querying operations.
       - **Utilization of Sequelize:** The implementation of these models is streamlined and made efficient through the use of Sequelize, a database ORM (Object-Relational Mapping) tool.
@@ -207,7 +206,6 @@ Currently, we have three repositories: one dedicated to Front-end development, a
       - **Integration of Stripe:** Stripe has been seamlessly integrated into the system to facilitate payments and billing.
       - **User Registration and Stripe:** Upon user registration, they are not only established as Stripe customers but are also enrolled in the subscription plan, which includes the 7-day trial.
       - **Payment Method Addition:** During the trial period, users have the secure option to add their preferred payment method.
-      - **Automatic Billing:** Once the trial period concludes, automatic billing for the services begins, ensuring uninterrupted access for users who choose to continue with the paid subscription.
         
     - **REST API:**
       - **Comprehensive Functionalities:** The API encompasses comprehensive functionalities for all models, addressing various aspects of user interaction and data management.
