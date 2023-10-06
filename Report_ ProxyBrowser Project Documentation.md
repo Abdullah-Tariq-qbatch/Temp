@@ -204,7 +204,6 @@ Currently, we have three repositories: one dedicated to Front-end development, a
       - **Automatic Billing:** Once the trial period concludes, automatic billing for the services begins, ensuring uninterrupted access for users who choose to continue with the paid subscription.
         
     - **REST API:**
-      - **Meticulously Developed REST API:** A meticulously developed REST API has been created to ensure a smooth and seamless user experience within the application.
       - **Comprehensive Functionalities:** The API encompasses comprehensive functionalities for all models, addressing various aspects of user interaction and data management.
       - **User-Related Features:** For users, the API includes features like registration, login, profile updating, and password reset, enhancing user account management.
       - **Location Functions:** Location-related functions cover activities such as location creation, updating, retrieval of user-specific locations, accessing individual locations, and deletion, facilitating location-based services.
