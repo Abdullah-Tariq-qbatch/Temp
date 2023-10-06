@@ -46,19 +46,19 @@ Currently, we have three repositories: one dedicated to Front-end development, a
             -     brew unlink node
             -     brew link node@14.9.0
             -     node -v
-          - **using nvm(Node Version Manager)**
+          - **using nvm (Node Version Manager)**
             -   To install nvm in Mac OS follow this [link](https://tecadmin.net/install-nvm-macos-with-homebrew/)
               
             -     nvm install 14.9.0
             -     nvm use 14.9.0
         - **In Windows**
-          - **using nvm(Node Version Manager)**
+          - **using nvm (Node Version Manager)**
             -   To install nvm on a Windows system, you can use this [download link](https://github.com/coreybutler/nvm-windows/releases/download/1.1.11/nvm-setup.exe) for the nvm setup.
               
             -     nvm install 14.9.0
             -     nvm use 14.9.0
         - **In Linux/Ubuntu**
-          - **using nvm(Node Version Manager)**
+          - **using nvm (Node Version Manager)**
             -   To install nvm in Mac OS follow this [link](https://tecadmin.net/how-to-install-nvm-on-ubuntu-22-04/)
               
             -     nvm install 14.9.0
