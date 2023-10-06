@@ -291,15 +291,39 @@ Currently, we have three repositories: one dedicated to Front-end development, a
 
 ![Browser Incognito Screen](/images/image-17.png)
 
-- **Search Engine**: In wexond-browser there is an option for the user to select his search engine on a list of search engines provided. Previously the default engine was Duckduckgo and now we have changed it to Google, so the default engine is Google in our extended version. 
-We achieve this by changing the settings data. First, when a project runs it will store the settings data, cookies, and local storage in a specific directory related to each user, After that It will read from that directory only, to achieve this we have to remove settings and then make the build of the project again.
-- **Keyboard Shortcuts**: In the extended version of Wexond Browser, additional keyboard shortcuts are introduced to enhance the user\'s browsing experience. Shortcuts can include actions like navigating between tabs, opening new tabs, closing tabs, and more. These shortcuts improve efficiency and navigation for power users. Users can manage multiple open tabs efficiently. They can switch between tabs using keyboard shortcuts or mouse interactions, reorder tabs, and close tabs as needed. Tab management is a crucial feature for users who regularly work with multiple websites simultaneously.
-To achieve this we created an event that will shift tabs of the open windows and on the base of a specific key press, so whenever a user presses those keys he/she will be able to switch tabs. We use menu items to achieve the above discussed functionality, Menu items are used to
-handle specific events on click.
-- **Proxy Support**: Wexond Browser offers a unique feature by including support for a Las Vegas proxy. This proxy allows users to change their IP address and location, enhancing online privacy and enabling access to geo-restricted content. Users can configure proxy settings within the browser to route their web traffic through the Las Vegas proxy server.
-Used proxy-chain package to implement proxy server and used os package to verify the contents of the request and add proxy if the request is of Ipv4. Set up a proxy server that listens on port 8080, forwards incoming requests to an upstream proxy server with authentication, and handles responses from the target server, including error handling. It also enables verbose logging for debugging and returns the proxy server instance for further use in the application.
-- **Implemented separate user data and sessions for each instance:** In a browser app, separating user data and sessions for each instance means that each user\'s interactions with the application are isolated from one another. Each instance or user session operates independently, with its own set of data and settings, ensuring privacy and security. This separation prevents one user\'s actions from affecting or accessing the data or session of another user, creating a distinct and personalized experience for each person using the application. This approach is essential for maintaining user privacy, data integrity, and security in multi-user web applications.
-To achieve this functionality, we create a unique time-stamped directory for each user. If the directory already exists, it writes the data into the existing directory, if the directory does not exist, it creates a new one. Using this approach, we can set cookies, local storage, and sessions for each user separately.
+- **Search Engine**:
+    - **Search Engine Selection:**  In the Wexond Browser, users have the option to choose their preferred search engine from a list of available options.
+    - **Default Engine Change:**  Previously, the default search engine in Wexond Browser was DuckDuckGo. However, in our extended version, we have made Google the new default search engine.
+    - **Settings Data Modification:**  To implement this change, we modified the settings data within the browser.
+    - **Data Storage:**  When a project is launched, it stores settings data, cookies, and local storage information in a dedicated directory specific to each user.
+    - **Directory Reading:**  Subsequently, the project exclusively reads from this user-specific directory for all its data needs.
+    - **Implementation Process:**  To enact this modification, it was necessary to remove the existing settings and then rebuild the project to reflect the updated default search engine setting.
+- **Keyboard Shortcuts:**
+    - **Enhanced Keyboard Shortcuts:**  The extended version of Wexond Browser introduces additional keyboard shortcuts to improve the browsing experience for users.
+    - **Shortcut Functions:**  These shortcuts encompass various actions such as tab navigation, opening new tabs, closing tabs, and more, enhancing efficiency and navigation for power users.
+    - **Efficient Tab Management:** Users can effectively manage multiple open tabs, utilizing keyboard shortcuts or mouse interactions to switch between tabs, reorder them, and close tabs as needed.
+    - **Crucial Feature:** Tab management plays a pivotal role for users who regularly work with multiple websites simultaneously.
+    - **Event Creation:** To implement these keyboard shortcuts, an event was created to facilitate the shifting of tabs among open windows based on specific key presses.
+    - **User-Friendly Interaction:** Users can seamlessly switch tabs by pressing the designated shortcut keys, resulting in an improved browsing experience.
+    - **Menu Items Implementation:** Menu items are employed to enable the functionality discussed above. They serve as triggers for specific events when clicked by the user.
+- **Proxy Support:**
+    - **Incorporated Proxy:** Wexond Browser distinguishes itself by incorporating support for a Las Vegas proxy, offering users the capability to modify their IP address and location. This feature enhances online privacy and grants access to geo-restricted content.
+    - **User Configuration:** Users have the option to configure proxy settings directly within the browser, enabling them to route their web traffic through the Las Vegas proxy server.
+    - **Implementation with proxy-chain Package:** To implement the proxy server functionality, the proxy-chain package was utilized.
+    - **Utilization of os Package:** The os package was employed to verify the contents of incoming requests and to add proxy settings selectively if the request is of the IPv4 type.
+    - **Proxy Server Setup:** A proxy server was set up, listening on port 8080, with the ability to forward incoming requests to an upstream proxy server equipped with authentication.
+    - **Response Handling:** The proxy server is designed to handle responses from the target server, including the implementation of error-handling mechanisms.
+    - **Verbose Logging:** To facilitate debugging, the proxy server is configured to enable verbose logging, providing detailed insights into its operations.
+    - **Server Instance Availability:** The proxy server instance is made accessible for further utilization within the application, ensuring flexibility and extensibility in its use.
+- **Implemented separate user data and sessions for each instance:**
+    - **User Data and Session Separation:** In a browser application, segregating user data and sessions for each instance ensures that each user's interactions remain isolated from one another.
+    - **Independence of Instances:** Each instance or user session operates independently, maintaining its distinct set of data and settings. This independence guarantees privacy and security for users.
+    - **Preventing Data Interference:** This separation mechanism effectively prevents one user's actions from affecting or accessing the data or session of another user, preserving the integrity of each user's experience.
+    - **Personalized User Experience:** The approach creates a personalized and tailored experience for every individual using the application.
+    - **Essential for Privacy and Security:** Such separation is essential for upholding user privacy, ensuring data integrity, and maintaining robust security measures in multi-user web applications.
+    - **Unique User Directories:** To implement this functionality, a unique time-stamped directory is generated for each user.
+    - **Data Handling:** When such a directory already exists, the application writes data into the existing directory. If the directory is absent, a new one is created as needed.
+    - **Cookies, Local Storage, and Sessions:** This approach enables the application to manage cookies, local storage, and sessions for each user separately, enhancing user-specific functionality and data management.
 
 
 ## Development Guidelines
