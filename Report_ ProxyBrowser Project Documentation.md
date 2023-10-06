@@ -322,4 +322,4 @@ To achieve this functionality, we create a unique time-stamped directory for eac
    - [Proxy Browser](https://github.com/qbatch/proxy-browser)
 2. **Competitor**
    
-    One of our primary competitors in the market is [Mirage](https://mirageid.com/)
+    One of our primary competitors in the market is [Mirage ID](https://mirageid.com/)
