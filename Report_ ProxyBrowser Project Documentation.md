@@ -124,7 +124,23 @@ Currently, we have three repositories: one dedicated to Front-end development, a
         | stripe_customer_id | String | Stripe Customer ID to manage subscription |
 
         - **Associations**
-          -  Users one-to-many OTP
+          -  Users **one-to-many** OTP
+          -  Users **one-to-many** PaymentMethods
+          -  Users **one-to-many** Plans
+          -  Users **one-to-many** Locations
+          -  Users **one-to-many** Sessions
+
+       - **Locations**
+
+         | Attribute Name | Possible Values | Description |
+         | ------------ | ------------ | ------------ |
+         | name | String  | A name set by user for location |
+         | home_page | Any Website's URL  | A home_page that will be opened when that location is used |
+         | location | Valid Proxy Location  | A proxy Location |
+
+          - **Associations**
+            -  Locations **many-to-one** Users
+            -  Locations **one-to-one** Sessions
     - **Stripe:** Our services are offered on a paid basis, and upon user registration, individuals are granted a complimentary 7-day trial period. Following this trial period, users will be billed in accordance with their chosen subscription plan. It is our commitment to ensure that users remain within our application throughout this process, offering a seamless experience. To realize this functionality, we have seamlessly integrated Stripe into our system. Upon user registration, we not only establish them as Stripe customers but also enroll them in our plan, which includes a 7-day trial period. During this time frame, users have the option to securely add their preferred payment method. Subsequently, once the trial period concludes, automatic billing for our services commences. 
     - **REST API:** In order to ensure a smooth and seamless user experience within our application, we have meticulously developed a REST API that encompasses comprehensive functionalities for all models. For users, it includes features such as registration, login, profile updating, and password reset. Location-related functions comprise location creation, updating, retrieval of user-specific locations, accessing individual locations, and deletion. OTP functionalities encompass OTP generation and validation. Users can also add payment methods, create or revoke plans, and manage sessions through complete CRUD operations. Furthermore, our API is fortified with request validations using Joi schemas and seamlessly integrates with Stripe for payment processing.
 
