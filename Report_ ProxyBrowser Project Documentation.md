@@ -217,8 +217,9 @@ Currently, we have three repositories: one dedicated to Front-end development, a
 4. ### Proxy-Browser
     3.1. **Setting Up the Development Environment**
     - **To Install Project dependencies, use the following command:**
-  
-        -     npm install
+        - This project exhibits better compatibility with Yarn compared to npm.
+          
+        -     yarn 
     - **To run the project in development mode, execute the following command:**
    
         -     REACT_SERVER_URL=http://127.0.0.1:3000 yarn dev
