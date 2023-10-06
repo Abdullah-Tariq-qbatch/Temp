@@ -229,8 +229,23 @@ Currently, we have three repositories: one dedicated to Front-end development, a
         - **pages** - This directory houses the pages, which serve as containers for the React components.
 
     3.3. **Implementation Approach**
-     - **JSX:** To achieve a dynamic and versatile user interface, we harnessed the power of JSX (JavaScript XML) in conjunction with the React framework. This strategic choice empowered us to create highly dynamic user interfaces and to break down these interfaces into modular components, fostering code reusability. By leveraging JSX and React's capabilities, we were not only able to craft fluid and responsive displays but also to encapsulate functionality within reusable components, optimizing the efficiency and maintainability of our codebase. This approach not only promotes a more dynamic user experience but also streamlines the development process, ultimately enhancing code maintainability and extensibility for future iterations of our project.
-     - **MUI:** In our development process, we expedited our workflow by integrating Material UI components into our project architecture. This allowed us to leverage a rich array of meticulously crafted, pre-optimized components. These components not only significantly accelerated our development pace but also provided the flexibility to tailor their appearance to align seamlessly with our project's theme requirements. By harnessing the power of Material UI, we ensured a cohesive and polished user interface while streamlining our development efforts. 
+     - **JSX:**
+       - **Dynamic User Interface:** The goal was to achieve a dynamic and versatile user interface for the project.
+       - **JSX and React:** JSX (JavaScript XML) was employed in conjunction with the React framework to accomplish this objective.
+       - **Dynamic UI Creation:** This strategic choice enabled the creation of highly dynamic user interfaces with fluid and responsive displays.
+       - **Modular Components:** The interfaces were further broken down into modular components, promoting code reusability.
+       - **Encapsulated Functionality:** Functionality was encapsulated within these reusable components, optimizing code efficiency and maintainability.
+       - **Streamlined Development:** Leveraging JSX and React not only improved the user experience but also streamlined the development process.
+       - **Code Maintainability:** This approach enhanced code maintainability, making it easier to manage and update.
+       - **Extensibility:** The project became more extensible, paving the way for future iterations and enhancements.
+
+     - **MUI:**
+       - **Workflow Acceleration:** Material UI components were integrated into the development process, expediting the workflow.
+       - **Rich Array of Components:** This integration granted access to a diverse selection of meticulously crafted and pre-optimized components.
+       - **Development Efficiency:** Material UI components significantly accelerated the development pace, reducing the time required to build various UI elements.
+       - **Flexibility in Appearance:** These components provided flexibility, enabling the team to customize their appearance to seamlessly align with the project's specific theme and design requirements.
+       - **Cohesive User Interface:** The integration of Material UI ensured a cohesive and polished user interface, contributing to a consistent visual identity throughout the application.
+       - **Streamlined Development:** By harnessing the capabilities of Material UI, development efforts were streamlined, resulting in a more efficient and productive development process.
 
 ## Project Overview
 1. ### Project Goals
