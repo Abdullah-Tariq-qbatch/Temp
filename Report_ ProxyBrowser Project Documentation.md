@@ -58,7 +58,7 @@ Currently, we have three repositories: one dedicated to Front-end development, a
             -     nvm install 14.9.0
             -     nvm use 14.9.0
          - **In Linux/Ubuntu**
-          - **using nvm(Node Version Manager)**
+            - **using nvm(Node Version Manager)**
             -   To install nvm in Mac OS follow this [link](https://tecadmin.net/how-to-install-nvm-on-ubuntu-22-04/)
               
             -     nvm install 14.9.0
