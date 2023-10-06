@@ -130,12 +130,12 @@ Currently, we have three repositories: one dedicated to Front-end development, a
         | address | String | User's street address |
         | stripe_customer_id | String | Stripe Customer ID to manage subscription |
 
-        - **Associations**
-          -  A **User** have many **OTP**
-          -  A **User** have many **PaymentMethods**
-          -  A **User** have many **Plans**
-          -  A **User** have many **Locations**
-          -  A **User** have many **Sessions**
+        - **Relations**
+          -  A **User** has many **OTP**
+          -  A **User** has many **PaymentMethods**
+          -  A **User** has many **Plans**
+          -  A **User** has many **Locations**
+          -  A **User** has many **Sessions**
 
        - **Locations**
 
@@ -145,9 +145,9 @@ Currently, we have three repositories: one dedicated to Front-end development, a
          | home_page | Any Website's URL  | A home_page that will be opened when that location is used |
          | location | Valid Proxy Location  | A proxy Location |
 
-          - **Associations**
+          - **Relations**
             -  A **Location** belongs to a **User**
-            -  A **Location** have one **Session**
+            -  A **Location** has one **Session**
               
        - **OTP**
          | Attribute Name | Possible Values | Description |
@@ -157,7 +157,7 @@ Currently, we have three repositories: one dedicated to Front-end development, a
          | expiry_timestamp | Timestamp  | A timestamp when the code will be expired |
          | is_used | true, false  | To check whether code is used or not |
 
-         - **Associations**
+         - **Relations**
             -  An **OTP** belongs to a **User**
           
        - **PaymentMethods**
@@ -166,7 +166,7 @@ Currently, we have three repositories: one dedicated to Front-end development, a
          | stripe_card_id | String | Stripe Customer ID to pay for subscription |
          | last_four | 4-characters long numeric string | to store the last 4 digits of the user's card |
 
-         - **Associations**
+         - **Relations**
             -  A **PaymentMethod** belongs to a **User**
 
        - **Plans**
@@ -178,7 +178,7 @@ Currently, we have three repositories: one dedicated to Front-end development, a
          | subscription_id | String | Stripe Subscription ID of the user |
          | status | "active", "cancelled" | Whether plan is currently active or cancelled by the user |
 
-          - **Associations**
+          - **Relations**
             -  A **Plan** belongs to a **User**
            
        - **Sessions**
@@ -189,7 +189,7 @@ Currently, we have three repositories: one dedicated to Front-end development, a
          | is_active | true, false | TO check if the session is active or not |
          | device_info | String | To store the info related to the device from which the user is accessing the app |
 
-         - **Associations**
+         - **Relations**
             -  A **Session** belongs to a **User**
             -  A **Session** belongs to a **Location**
               
