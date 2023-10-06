@@ -95,7 +95,7 @@ Currently, we have three repositories: one dedicated to Front-end development, a
       
         -     npm run generate-migration -- --name <migration-name>
         -     npm run db:migrate
-    - **To revert changes made by a migration, use the command:**
+    - **To revert changes made by the last migration, use the command:**
       
         -     npm run db:migrate:undo
 
