@@ -65,7 +65,8 @@ Currently, we have three repositories: one dedicated to Front-end development, a
             -     nvm use 14.9.0
     - Set env variables through the terminal
     - **To Install Project dependencies, use the following command:**
-  
+        - This project exhibits better compatibility with Yarn compared to npm.
+          
         -     yarn 
     - **To initialize the project in development mode for the first time, please follow these steps:**
       
