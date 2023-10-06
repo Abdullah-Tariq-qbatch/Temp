@@ -1,28 +1,12 @@
 # Table of Contents
 
-1. [Introduction](##introduction)
-    1. [Project Overview](###project-overview)
-    2. [Purpose of Documentation](#purpose-of-documentation)
-    3. [Audience](#audience)
-2. [Getting Started](#getting-started)
-    1. [Wexond-Browser-Extended](#wexond-browser-extended)
-        1. [Setting Up the Development Environment](#setting-up-the-development-environment)
-    2. [Proxy-Browser-Backend](#proxy-browser-backend)
-        1. [Setting Up the Development Environment](#setting-up-the-development-environment-1)
-        2. [Project Structure](#project-structure)
-    3. [Proxy-Browser](#proxy-browser)
-        1. [Setting Up the Development Environment](#setting-up-the-development-environment-2)
-        2. [Project Structure](#project-structure-1)
-3. [Project Overview](#project-overview-1)
-    1. [Project Goals](#project-goals)
-    2. [Key Features](#key-features)
-4. [Development Guidelines](#development-guidelines)
-    1. [Coding Standards](#coding-standards)
-    2. [Version Control](#version-control)
-    3. [Code Review Process](#code-review-process)
-5. [Additional Resources](#additional-resources)
-    1. [Relevant Links](#relevant-links)
-    2. [Competitor](#competitor)
+- [Table of Contents](#table-of-contents)
+- [Report: ProxyBrowser Project Documentation](#report-proxybrowser-project-documentation)
+  - [Introduction](#introduction)
+  - [Getting Started](#getting-started)
+  - [Project Overview](#project-overview)
+  - [Development Guidelines](#development-guidelines)
+  - [Additional Resources](#additional-resources)
 
 
 
@@ -199,7 +183,7 @@ Used proxy-chain package to implement proxy server and use os package to verify 
 - **Implemented separate user data and sessions for each instance:** In a browser app, separating user data and sessions for each instance means that each user\'s interactions with the application are isolated from one another. Each instance or user session operates independently, with its own set of data and settings, ensuring privacy and security. This separation prevents one user\'s actions from affecting or accessing the data or session of another user, creating a distinct and personalised experience for each person using the application. This approach is essential for maintaining user privacy, data integrity, and security in multi-user web applications.
 To achieve this functionality, we create a unique time stamped directory for each user. If the directory already exists, it writes the data into the existing directory, if the directory does not exist, it creates a new one. By using this approach, we can set cookies, local storage, and sessions for each user separately.
 
-## Develpment Guidelines
+## Development Guidelines
 1. **Coding Standards**
 ProxyBrowser has been meticulously developed, adhering to industry-leading coding practices, in order to uphold superior code quality and long-term maintainability.
 2. **Version Control**
