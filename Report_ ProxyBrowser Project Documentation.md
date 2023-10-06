@@ -1,7 +1,7 @@
 # Table of Contents
 
-1. [Introduction](#introduction)
-    1. [Project Overview](#project-overview)
+1. [Introduction](##introduction)
+    1. [Project Overview](###project-overview)
     2. [Purpose of Documentation](#purpose-of-documentation)
     3. [Audience](#audience)
 2. [Getting Started](#getting-started)
@@ -30,14 +30,14 @@
 
 ## Introduction
 
-1. **Project Overview**
-ProxyBrowser represents a sophisticated web browsing application meticulously crafted with an emphasis on user security and customization. It encompasses an extensive array of features meticulously designed to elevate the online experience, catering specifically to users who prioritize privacy and seek greater control over their browsing activities.
+1. ### Project Overview
+    ProxyBrowser represents a sophisticated web browsing application meticulously crafted with an emphasis on user security and customization. It encompasses an extensive array of features meticulously designed to elevate the online experience, catering specifically to users who prioritize privacy and seek greater control over their browsing activities.
 
-2. **Purpose of Documentation**
-The purpose of this documentation is to provide a clear understanding of the ProxyBrowser project, its functionality, development processes, and how to contribute to its growth. It serves as a reference for developers, contributors, and users.
+2. ### Purpose of Documentation
+    The purpose of this documentation is to provide a clear understanding of the ProxyBrowser project, its functionality, development processes, and how to contribute to its growth. It serves as a reference for developers, contributors, and users.
 
-3. **Audience**
-This documentation is intended for:
+3. ### Audience
+    This documentation is intended for: 
 - Developers and contributors interested in understanding and contributing to the ProxyBrowser project.
 - Users seeking information on ProxyBrowser\'s features and functionality.
 - Project managers and stakeholders looking for an overview of the project\'s structure and development guidelines.
@@ -48,68 +48,70 @@ Currently, we have three repositories: one dedicated to Front-end development, a
 - Back-End: \"**proxy-browser-backend**\".
 - Browser: \"**wexond-browser-extended**\"
 
-1. **Wexond-Browser-Extended**/
-1.1. **Setting Up the Development Environment**
-- Before beginning, it\'s crucial to ensure that your current Node.js and npm versions are compatible with the project\'s requirements. Please follow these steps to prepare your environment:
-- **To verify your node and yarn version**
-    - `node --version`
-    - `yarn --version`
-- **How To Install specific node version**
-    - ```nvm install 14.9.0``` (nvm is the node version manager)
-    - ```nvm use 14.9.0```
-- Set env variables through terminal
-- **To initialise the project in development mode for the first time, please follow these steps:** 
-    - ```yarn rebuild```
-    - ```yarn dev```
-- **For subsequent runs in development mode, use the following command:**
-    - ```yarn dev```
+1. ### Wexond-Browser-Extended 
+    1.1. **Setting Up the Development Environment**
+    Before beginning, it\'s crucial to ensure that your current Node.js and npm versions are compatible with the project\'s requirements. Please follow these steps to prepare your environment:
+    -  **To verify your node and yarn version**
+        - `node --version`
+        - `yarn --version`
+    - **How To Install specific node version**
+        - ```nvm install 14.9.0``` (nvm is the node version manager)
+        - ```nvm use 14.9.0```
+    - Set env variables through terminal
+    - **To initialise the project in development mode for the first time, please follow these steps:** 
+        - ```yarn rebuild```
+        - ```yarn dev```
+    - **For subsequent runs in development mode, use the following command:**
+        - ```yarn dev```
 
-2. **Proxy-Browser-Backend**
-2.1. **Setting Up the Development Environment**
-- Create a file named ".env" at the root level of the folder.
-- Define env variables into it.
-- **To initialise the project in development mode for the first time, please follow these steps:**
-    - ```npm run db:migrate```
-    - ```npm run stripe:seeder```
-    - ```npm run dev```
-- **For subsequent runs in development mode, use the following command:**
-    - ```npm run dev```
-- **If you need to make changes to the database through migrations, perform the following steps:**
-    - ```npm run generate-migration -- --name <migration-name>```
-    - ```npm run db:migrate```
-- **To revert changes made by a migration, use the command:**
-    - ```npm run db:migrate:undo```
+2. ### Proxy-Browser-Backend
+    2.1. **Setting Up the Development Environment**
+    - Create a file named ".env" at the root level of the folder.
+    - Define env variables into it.
+    - **To initialise the project in development mode for the first time, please follow these steps:**
+        - ```npm run db:migrate```
+        - ```npm run stripe:seeder```
+        - ```npm run dev```
+    - **For subsequent runs in development mode, use the following command:**
+        - ```npm run dev```
+    - **If you need to make changes to the database through migrations, perform the following steps:**
+        - ```npm run generate-migration -- --name <migration-name>```
+        - ```npm run db:migrate```
+    - **To revert changes made by a migration, use the command:**
+        - ```npm run db:migrate:undo```
 
-2.2. **Project Structure**
-The project adheres to a standard directory structure typical of a **Node.js/Express** backend project. It is organised as follows:
-- **config** - Configuration files that store settings and parameters for the database
-- **controllers** - Modules responsible for handling incoming HTTP requests, processing data, and sending appropriate responses.
-- **joiSchemas** - Schemas defined using the Joi library to validate and sanitise incoming data from requests.
-- **middlewares** - Functions that intercept and process requests before they reach the controller.
-- **models** - Representations of database tables.
-- **routes** - Definitions for the URL endpoints of API, mapping incoming requests to the appropriate controller methods.
-- **utils** - Utility functions and helper modules used throughout application for common tasks.
-- **views** - templates for rendering dynamic HTML content in email.
-- **app.js** - The entry point of Express application where you set up server configurations, middleware, and initialise routes.
-3. **Proxy-Browser**
-3.1. **Setting Up the Development Environment**
-- **To run the project in development mode, execute the following command:**
-```REACT_SERVER_URL=http://<device_ip_address>:3000 yarn dev```
-3.2. **Project Structrue**
-The project follows a directory structure similar to that of a basic **React App**. It is organised as follows:
-- **public**
-- **electron.js** - Responsible for launching the project using Electron JS.
-- **Index.html** - Serves as the primary entry point for the application.
-- **src**
-    - **assets** - This directory houses various project assets, including images, SVGs, and more.
-    - **component** - Within this directory, you\'ll find the React components utilised in constructing pages.
-    - **pages** - This directory is dedicated to housing the pages, which serve as containers for the React components.
+    2.2. **Project Structure**
+    The project adheres to a standard directory structure typical of a **Node.js/Express** backend project. It is organised as follows:
+    - **config** - Configuration files that store settings and parameters for the database
+    - **controllers** - Modules responsible for handling incoming HTTP requests, processing data, and sending appropriate responses.
+    - **joiSchemas** - Schemas defined using the Joi library to validate and sanitise incoming data from requests.
+    - **middlewares** - Functions that intercept and process requests before they reach the controller.
+    - **models** - Representations of database tables.
+    - **routes** - Definitions for the URL endpoints of API, mapping incoming requests to the appropriate controller methods.
+    - **utils** - Utility functions and helper modules used throughout application for common tasks.
+    - **views** - templates for rendering dynamic HTML content in email.
+    - **app.js** - The entry point of Express application where you set up server configurations, middleware, and initialise routes.
+
+3. ### Proxy-Browser
+    3.1. **Setting Up the Development Environment**
+    - **To run the project in development mode, execute the following command:**
+        - ```REACT_SERVER_URL=http://<device_ip_address>:3000 yarn dev```
+
+    3.2. **Project Structrue**
+    The project follows a directory structure similar to that of a basic **React App**. It is organised as follows:
+    - **public**
+    - **electron.js** - Responsible for launching the project using Electron JS.
+    - **Index.html** - Serves as the primary entry point for the application.
+    - **src**
+        - **assets** - This directory houses various project assets, including images, SVGs, and more.
+        - **component** - Within this directory, you\'ll find the React components utilised in constructing pages.
+        - **pages** - This directory is dedicated to housing the pages, which serve as containers for the React components.
 
 ## Project Overview
-1. **Project Goals**
-The goal of the ProxyBrowser - Wexond Browser Extended project is to develop a feature-rich, user-friendly web browser application with enhanced privacy, security, and customization options. The project aims to provide users with a versatile and personalised browsing experience, while also prioritising their online privacy and data security.
-2. **Key Features**
-Explore the core features of ProxyBrowser, including user authentication, proxy management, dedicated proxies, and more.
+1. ### Project Goals
+    The goal of the ProxyBrowser - Wexond Browser Extended project is to develop a feature-rich, user-friendly web browser application with enhanced privacy, security, and customization options. The project aims to provide users with a versatile and personalised browsing experience, while also prioritising their online privacy and data security.
+2. ### Key Features
+    Explore the core features of ProxyBrowser, including user authentication, proxy management, dedicated proxies, and more.
 - **Separate Browser Instance**: Users can enjoy a dedicated and separate browser environment to maintain privacy and avoid interference with their main browsing session.
 - **Downloading Files**: Users can initiate and manage downloads with a user-friendly interface, including specifying download locations and monitoring progress.
 - **Creating New Windows**: The browser supports multiple browser windows for multitasking and easy management of websites and tasks.
