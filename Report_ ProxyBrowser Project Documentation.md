@@ -184,18 +184,18 @@ Used proxy-chain package to implement proxy server and use os package to verify 
 To achieve this functionality, we create a unique time stamped directory for each user. If the directory already exists, it writes the data into the existing directory, if the directory does not exist, it creates a new one. By using this approach, we can set cookies, local storage, and sessions for each user separately.
 
 ## Development Guidelines
-1. **Coding Standards**
-ProxyBrowser has been meticulously developed, adhering to industry-leading coding practices, in order to uphold superior code quality and long-term maintainability.
-2. **Version Control**
-We utilise Git and GitHub for version control purposes.
-3. **Code Review Process**
-For code review, we maintain an internal Slack channel dedicated to the process, where we request our team to review our code.
+  1. **Coding Standards**
+    ProxyBrowser has been meticulously developed, adhering to industry-leading coding practices, in order to uphold superior code quality and long-term maintainability.
+  2. **Version Control**
+    We utilise Git and GitHub for version control purposes.
+  3. **Code Review Process**
+    For code review, we maintain an internal Slack channel dedicated to the process, where we request our team to review our code.
 
 ## Additional Resources
 1. **Relevant Links**
-Please locate the links to the repositories:
-- [wexond-browser-extended](https://github.com/qbatch/wexond-browser-extended)
-- [proxy-browser-backend](https://github.com/qbatch/proxy-browser-backend)
-- [proxy-browser](https://github.com/qbatch/proxy-browser)
+    Please locate the links to the repositories:
+   - [wexond-browser-extended](https://github.com/qbatch/wexond-browser-extended)
+   - [proxy-browser-backend](https://github.com/qbatch/proxy-browser-backend)
+   - [proxy-browser](https://github.com/qbatch/proxy-browser)
 2. **Competitor**
-One of our primary competitors in the market is [Mirage](https://mirageid.com/)
+    One of our primary competitors in the market is [Mirage](https://mirageid.com/)
