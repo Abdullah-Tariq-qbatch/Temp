@@ -185,6 +185,18 @@ To achieve this functionality, we create a unique time stamped directory for eac
 - **Models:** In the proxy-browser-backend, our project incorporates models for User, Location, OTP, PaymentMethod, Plan, and Session, which directly correspond to the database tables. These models serve as integral components employed consistently throughout the project for querying purposes. The implementation of these models is facilitated by Sequelize, a choice made for its ease of query construction and its inherent safeguard against SQL injection attacks. Additionally, we have opted to employ a MySQL database in conjunction with Sequelize.
 - **Stripe:** Our services are offered on a paid basis, and upon user registration, individuals are granted a complimentary 7-day trial period. Following this trial period, users will be billed in accordance with their chosen subscription plan. It is our commitment to ensure that users remain within our application throughout this process, offering a seamless experience. To realize this functionality, we have seamlessly integrated Stripe into our system. Upon user registration, we not only establish them as Stripe customers but also enroll them in our plan, which includes a 7-day trial period. During this time frame, users have the option to securely add their preferred payment method. Subsequently, once the trial period concludes, automatic billing for our services commences. 
 - **REST API:** In order to ensure a smooth and seamless user experience within our application, we have meticulously developed a REST API that encompasses comprehensive functionalities for all models. For users, it includes features such as registration, login, profile updating, and password reset. Location-related functions comprise location creation, updating, retrieval of user-specific locations, accessing individual locations, and deletion. OTP functionalities encompass OTP generation and validation. Users can also add payment methods, create or revoke plans, and manage sessions through complete CRUD operations. Furthermore, our API is fortified with request validations using Joi schemas and seamlessly integrates with Stripe for payment processing.
+
+
+## Development Guidelines
+1. **Coding Standards**
+
+    ProxyBrowser has been meticulously developed, adhering to industry-leading coding practices, in order to uphold superior code quality  and long-term maintainability.
+   - [wexond-browser-extended](https://github.com/qbatch/wexond-browser-extended)
+   - [proxy-browser-backend](https://github.com/qbatch/proxy-browser-backend)
+   - [proxy-browser](https://github.com/qbatch/proxy-browser)
+2. **Competitor**
+   
+    One of our primary competitors in the market is [Mirage](https://mirageid.com/)
   
 ## Development Guidelines
 1. **Coding Standards**
