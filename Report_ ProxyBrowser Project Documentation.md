@@ -203,8 +203,6 @@ Currently, we have three repositories: one dedicated to Front-end development, a
       - **Paid Services:** The services offered are available on a paid basis.
       - **Complimentary 7-Day Trial:** Upon user registration, individuals are granted a complimentary 7-day trial period, providing an initial experience without immediate charges.
       - **Subscription Billing:** After the trial period, users will be billed according to the subscription plan they select.
-      - **Seamless User Experience:** The commitment is to ensure users have a seamless experience, remaining within the application throughout the trial and billing process.
-      - **Integration of Stripe:** Stripe has been seamlessly integrated into the system to facilitate payments and billing.
       - **User Registration and Stripe:** Upon user registration, they are not only established as Stripe customers but are also enrolled in the subscription plan, which includes the 7-day trial.
       - **Payment Method Addition:** During the trial period, users have the secure option to add their preferred payment method.
         
