@@ -36,14 +36,35 @@ Currently, we have three repositories: one dedicated to Front-end development, a
     1.1. **Setting Up the Development Environment**
     Before beginning, it\'s crucial to ensure that your current Node.js and npm versions are compatible with the project\'s requirements. Please follow these steps to prepare your environment:
     -  **To verify your node and yarn version**
-      
         -     node --version
         -     yarn --version
-    - **How To Install specific node version**
-        - ```nvm install 14.9.0``` (nvm is the node version manager)
-        - ```nvm use 14.9.0```
-    - Set env variables through terminal
-    - **To initialise the project in development mode for the first time, please follow these steps:**
+    - **How To Install Specific Node Version**
+        - **In Mac OS**
+          - **using brew**
+            
+            -     brew install node@14.9.0
+            -     brew unlink node
+            -     brew link node@14.9.0
+            -     node -v
+          - **using nvm(Node Version Manager)**
+            -   To install nvm in Mac OS follow this [link](https://tecadmin.net/install-nvm-macos-with-homebrew/)
+              
+            -     nvm install 14.9.0
+            -     nvm use 14.9.0
+        - **In Windows**
+          - **using nvm(Node Version Manager)**
+            -   To install nvm in Windows this is [link](https://github.com/coreybutler/nvm-windows/releases/download/1.1.11/nvm-setup.exe) to download nvm setup.
+              
+            -     nvm install 14.9.0
+            -     nvm use 14.9.0
+         - **In Linux/Ubuntu**
+          - **using nvm(Node Version Manager)**
+            -   To install nvm in Mac OS follow this [link](https://tecadmin.net/how-to-install-nvm-on-ubuntu-22-04/)
+              
+            -     nvm install 14.9.0
+            -     nvm use 14.9.0
+    - Set env variables through the terminal
+    - **To initialize the project in development mode for the first time, please follow these steps:**
       
         -     yarn rebuild
         -     yarn dev
@@ -55,7 +76,7 @@ Currently, we have three repositories: one dedicated to Front-end development, a
     2.1. **Setting Up the Development Environment**
     - Create a file named ".env" at the root level of the folder.
     - Define env variables into it.
-    - **To initialise the project in development mode for the first time, please follow these steps:**
+    - **To initialize the project in development mode for the first time, please follow these steps:**
       
         -     npm run db:migrate
         -     npm run stripe:seeder
@@ -72,16 +93,16 @@ Currently, we have three repositories: one dedicated to Front-end development, a
         -     npm run db:migrate:undo
 
     2.2. **Project Structure**
-    The project adheres to a standard directory structure typical of a **Node.js/Express** backend project. It is organised as follows:
+    The project adheres to a standard directory structure typical of a **Node.js/Express** backend project. It is organized as follows:
     - **config** - Configuration files that store settings and parameters for the database
     - **controllers** - Modules responsible for handling incoming HTTP requests, processing data, and sending appropriate responses.
-    - **joiSchemas** - Schemas defined using the Joi library to validate and sanitise incoming data from requests.
+    - **joiSchemas** - Schemas defined using the Joi library to validate and sanitize incoming data from requests.
     - **middlewares** - Functions that intercept and process requests before they reach the controller.
     - **models** - Representations of database tables.
     - **routes** - Definitions for the URL endpoints of API, mapping incoming requests to the appropriate controller methods.
-    - **utils** - Utility functions and helper modules used throughout application for common tasks.
+    - **utils** - Utility functions and helper modules used throughout the application for common tasks.
     - **views** - templates for rendering dynamic HTML content in email.
-    - **app.js** - The entry point of Express application where you set up server configurations, middleware, and initialise routes.
+    - **app.js** - The entry point of the Express application where you set up server configurations, middleware, and initialize routes.
 
 3. ### Proxy-Browser
     3.1. **Setting Up the Development Environment**
@@ -89,19 +110,19 @@ Currently, we have three repositories: one dedicated to Front-end development, a
    
         -     REACT_SERVER_URL=http://<device_ip_address>:3000 yarn dev
 
-    3.2. **Project Structrue**
-    The project follows a directory structure similar to that of a basic **React App**. It is organised as follows:
+    3.2. **Project Structure**
+    The project follows a directory structure similar to that of a basic **React App**. It is organized as follows:
     - **public**
     - **electron.js** - Responsible for launching the project using Electron JS.
     - **Index.html** - Serves as the primary entry point for the application.
     - **src**
         - **assets** - This directory houses various project assets, including images, SVGs, and more.
         - **component** - Within this directory, you\'ll find the React components utilised in constructing pages.
-        - **pages** - This directory is dedicated to housing the pages, which serve as containers for the React components.
+        - **pages** - This directory houses the pages, which serve as containers for the React components.
 
 ## Project Overview
 1. ### Project Goals
-    The goal of the ProxyBrowser - Wexond Browser Extended project is to develop a feature-rich, user-friendly web browser application with enhanced privacy, security, and customization options. The project aims to provide users with a versatile and personalised browsing experience, while also prioritising their online privacy and data security.
+    The goal of the ProxyBrowser - Wexond Browser Extended project is to develop a feature-rich, user-friendly web browser application with enhanced privacy, security, and customization options. The project aims to provide users with a versatile and personalized browsing experience, while also prioritizing their online privacy and data security.
 2. ### Key Features
     Explore the core features of ProxyBrowser, including user authentication, proxy management, dedicated proxies, and more.
 - **Separate Browser Instance**: Users can enjoy a dedicated and separate browser environment to maintain privacy and avoid interference with their main browsing session.
@@ -124,7 +145,7 @@ Currently, we have three repositories: one dedicated to Front-end development, a
 - **User Data and Sessions Isolation**: Each user\'s interactions are isolated, ensuring privacy and security. Separate directories and settings are created for each user.
 - **Login/Sign up Functionality:**
     -  **Sign In**: Users can seamlessly access their accounts through a user-friendly interface by entering their credentials.
-    -  **Sign Up**: New users can register securely, enabling enhanced features and personalised settings.
+    -  **Sign Up**: New users can register securely, enabling enhanced features and personalized settings.
 
 ![Sign In Screen](/images/image-4.png)
 ![Sign Up Screen](/images/image-5.png)
@@ -156,11 +177,11 @@ Currently, we have three repositories: one dedicated to Front-end development, a
 
 ![Edit Location Screen](/images/image-11.png)
 
-- **Dedicated Proxy:** Exclusive access to dedicated proxies ensures privacy, data security, and unrestricted browsing. Users can customise and configure dedicated proxies to meet their specific needs.
+- **Dedicated Proxy:** Exclusive access to dedicated proxies ensures privacy, data security, and unrestricted browsing. Users can customize and configure dedicated proxies to meet their specific needs.
 
 ![Dashboard Screen](/images/image-12.png)
 
-- **History Keeping:** Users can access, search, filter, sort, and organise their browsing history for a personalised experience.
+- **History Keeping:** Users can access, search, filter, sort, and organize their browsing history for a personalized experience.
 
 ![Browser History Screen](/images/image-13.png)
 
@@ -168,28 +189,28 @@ Currently, we have three repositories: one dedicated to Front-end development, a
 
 ![Browser Privacy Settings Screen](/images/image-14.png)
 
-- **Marking Page as Bookmark:** Users can mark web pages as bookmarks, making it easy to access and organise favourite and frequently visited websites.
+- **Marking Page as Bookmark:** Users can mark web pages as bookmarks, making it easy to access and organize favorite and frequently visited websites.
 
 ![Browser Window with Bookmark Pop-up](/images/image-15.png)
 ![Browser Bookmarks Screen](/images/image-16.png)
 
-- **Incognito Window:** Incognito Windows prioritise user privacy by not recording browsing history, storing cookies, cached data, or autofill data.
+- **Incognito Window:** Incognito Windows prioritizes user privacy by not recording browsing history, storing cookies, cached data, or autofilling data.
 
 ![Browser Incognito Screen](/images/image-17.png)
 
-- **Browser Theme Settings:** Users can select themes (light, dark, custom) and customise the top bar variant and bookmarks settings.
+- **Browser Theme Settings:** Users can select themes (light, dark, custom) and customize the top bar variant and bookmarks settings.
 
 ![Browser Incognito Screen](/images/image-18.png)
 
-- **Search Engine**: In wexond-browser there is an option for the user to select his search engine on a list of search engines provided. Previously the default engine was duckduckgo and now we have changed it to google, So now the default engine is google in our extended version. 
-We achieve this by changing the settings data. First when a project runs it will store the settings data, cookies and local storage to a specific directory related to each user, After that It will read from that directory only, So to achieve this we have to remove settings and then make the build of the project again.
+- **Search Engine**: In wexond-browser there is an option for the user to select his search engine on a list of search engines provided. Previously the default engine was Duckduckgo and now we have changed it to Google, so the default engine is Google in our extended version. 
+We achieve this by changing the settings data. First, when a project runs it will store the settings data, cookies, and local storage in a specific directory related to each user, After that It will read from that directory only, to achieve this we have to remove settings and then make the build of the project again.
 - **Keyboard Shortcuts**: In the extended version of Wexond Browser, additional keyboard shortcuts are introduced to enhance the user\'s browsing experience. Shortcuts can include actions like navigating between tabs, opening new tabs, closing tabs, and more. These shortcuts improve efficiency and navigation for power users. Users can manage multiple open tabs efficiently. They can switch between tabs using keyboard shortcuts or mouse interactions, reorder tabs, and close tabs as needed. Tab management is a crucial feature for users who regularly work with multiple websites simultaneously.
 To achieve this we created an event that will shift tabs of the open windows and on the base of a specific key press, so whenever a user presses those keys he/she will be able to switch tabs. We use menu items to achieve the above discussed functionality, Menu items are used to
-handle specific event on click.
+handle specific events on click.
 - **Proxy Support**: Wexond Browser offers a unique feature by including support for a Las Vegas proxy. This proxy allows users to change their IP address and location, enhancing online privacy and enabling access to geo-restricted content. Users can configure proxy settings within the browser to route their web traffic through the Las Vegas proxy server.
-Used proxy-chain package to implement proxy server and use os package to verify the contents of request and add proxy if request is of Ipv4. Set up a proxy server that listens on port 8080, forwards incoming requests to an upstream proxy server with authentication, and handles responses from the target server, including error handling. It also enables verbose logging for debugging and returns the proxy server instance for further use in the application.
+Used proxy-chain package to implement proxy server and used os package to verify the contents of the request and add proxy if the request is of Ipv4. Set up a proxy server that listens on port 8080, forwards incoming requests to an upstream proxy server with authentication, and handles responses from the target server, including error handling. It also enables verbose logging for debugging and returns the proxy server instance for further use in the application.
 - **Implemented separate user data and sessions for each instance:** In a browser app, separating user data and sessions for each instance means that each user\'s interactions with the application are isolated from one another. Each instance or user session operates independently, with its own set of data and settings, ensuring privacy and security. This separation prevents one user\'s actions from affecting or accessing the data or session of another user, creating a distinct and personalized experience for each person using the application. This approach is essential for maintaining user privacy, data integrity, and security in multi-user web applications.
-To achieve this functionality, we create a unique time stamped directory for each user. If the directory already exists, it writes the data into the existing directory, if the directory does not exist, it creates a new one. By using this approach, we can set cookies, local storage, and sessions for each user separately.
+To achieve this functionality, we create a unique time-stamped directory for each user. If the directory already exists, it writes the data into the existing directory, if the directory does not exist, it creates a new one. Using this approach, we can set cookies, local storage, and sessions for each user separately.
 - **Models:** In the proxy-browser-backend, our project incorporates models for User, Location, OTP, PaymentMethod, Plan, and Session, which directly correspond to the database tables. These models serve as integral components employed consistently throughout the project for querying purposes. The implementation of these models is facilitated by Sequelize, a choice made for its ease of query construction and its inherent safeguard against SQL injection attacks. Additionally, we have opted to employ a MySQL database in conjunction with Sequelize.
 - **Stripe:** Our services are offered on a paid basis, and upon user registration, individuals are granted a complimentary 7-day trial period. Following this trial period, users will be billed in accordance with their chosen subscription plan. It is our commitment to ensure that users remain within our application throughout this process, offering a seamless experience. To realize this functionality, we have seamlessly integrated Stripe into our system. Upon user registration, we not only establish them as Stripe customers but also enroll them in our plan, which includes a 7-day trial period. During this time frame, users have the option to securely add their preferred payment method. Subsequently, once the trial period concludes, automatic billing for our services commences. 
 - **REST API:** In order to ensure a smooth and seamless user experience within our application, we have meticulously developed a REST API that encompasses comprehensive functionalities for all models. For users, it includes features such as registration, login, profile updating, and password reset. Location-related functions comprise location creation, updating, retrieval of user-specific locations, accessing individual locations, and deletion. OTP functionalities encompass OTP generation and validation. Users can also add payment methods, create or revoke plans, and manage sessions through complete CRUD operations. Furthermore, our API is fortified with request validations using Joi schemas and seamlessly integrates with Stripe for payment processing.
@@ -201,7 +222,7 @@ To achieve this functionality, we create a unique time stamped directory for eac
     ProxyBrowser has been meticulously developed, adhering to industry-leading coding practices, in order to uphold superior code quality  and long-term maintainability.
 2. **Competitor**
    
-    We utilise Git and GitHub for version control purposes.
+    We utilize Git and GitHub for version control purposes.
 3. **Code Review Process**
    
     For code review, we maintain an internal Slack channel dedicated to the process, where we request our team to review our code.
