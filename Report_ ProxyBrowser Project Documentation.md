@@ -188,7 +188,6 @@ To achieve this functionality, we create a unique time stamped directory for eac
   
 ## Development Guidelines
   1. **Coding Standards**
-    
     ProxyBrowser has been meticulously developed, adhering to industry-leading coding practices, in order to uphold superior code quality and long-term maintainability.
   2. **Version Control**
     
