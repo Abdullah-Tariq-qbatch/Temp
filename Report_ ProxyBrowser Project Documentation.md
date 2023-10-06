@@ -317,9 +317,9 @@ To achieve this functionality, we create a unique time-stamped directory for eac
 1. **Relevant Links**
 
     Please locate the links to the repositories:
-   - [wexond-browser-extended](https://github.com/qbatch/wexond-browser-extended)
-   - [proxy-browser-backend](https://github.com/qbatch/proxy-browser-backend)
-   - [proxy-browser](https://github.com/qbatch/proxy-browser)
+   - [Wexond Browser Extended](https://github.com/qbatch/wexond-browser-extended)
+   - [Proxy Browser Backend](https://github.com/qbatch/proxy-browser-backend)
+   - [Proxy Browser](https://github.com/qbatch/proxy-browser)
 2. **Competitor**
    
     One of our primary competitors in the market is [Mirage](https://mirageid.com/)
