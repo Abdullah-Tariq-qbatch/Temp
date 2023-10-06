@@ -15,7 +15,7 @@
 ## Introduction
 
 1. ### Project Overview
-    ProxyBrowser represents a sophisticated web browsing application meticulously crafted with an emphasis on user security and customization. It encompasses an extensive array of features meticulously designed to elevate the online experience, catering specifically to users who prioritize privacy and seek greater control over their browsing activities.
+    ProxyBrowser represents a cutting-edge web browsing application meticulously developed to prioritize user security as its core principle. With an unwavering commitment to enhancing the online experience, ProxyBrowser offers a comprehensive suite of features that have been thoughtfully customized to cater to the discerning needs of individuals who value privacy and seek a high degree of control over their online activities. By seamlessly integrating state-of-the-art security measures and a rich feature set, ProxyBrowser ensures that users can navigate the web with confidence, safeguarding their digital presence while optimizing their browsing experience.
 
 2. ### Purpose of Documentation
     The purpose of this documentation is to provide a clear understanding of the ProxyBrowser project, its functionality, development processes, and how to contribute to its growth. It serves as a reference for developers, contributors, and users.
@@ -36,8 +36,8 @@ Currently, we have three repositories: one dedicated to Front-end development, a
     1.1. **Setting Up the Development Environment**
     Before beginning, it\'s crucial to ensure that your current Node.js and npm versions are compatible with the project\'s requirements. Please follow these steps to prepare your environment:
     -  **To verify your node and yarn version**
+      
         -     node --version
-        -     yarn --version
     - **How To Install Specific Node Version**
         - **In Mac OS**
           - **using brew**
@@ -123,7 +123,7 @@ Currently, we have three repositories: one dedicated to Front-end development, a
 ## Project Overview
 1. ### Project Goals
     The goal of the ProxyBrowser - Wexond Browser Extended project is to develop a feature-rich, user-friendly web browser application with enhanced privacy, security, and customization options. The project aims to provide users with a versatile and personalized browsing experience, while also prioritizing their online privacy and data security.
-2. ### Key Features
+2. ### Key Features Along User Interface
     Explore the core features of ProxyBrowser, including user authentication, proxy management, dedicated proxies, and more.
 - **Separate Browser Instance**: Users can enjoy a dedicated and separate browser environment to maintain privacy and avoid interference with their main browsing session.
 - **Downloading Files**: Users can initiate and manage downloads with a user-friendly interface, including specifying download locations and monitoring progress.
