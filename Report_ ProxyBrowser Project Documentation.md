@@ -114,7 +114,7 @@ Currently, we have three repositories: one dedicated to Front-end development, a
     Explore the core features of ProxyBrowser, including user authentication, proxy management, dedicated proxies, and more.
 - **Separate Browser Instance**: Users can enjoy a dedicated and separate browser environment to maintain privacy and avoid interference with their main browsing session.
 - **Downloading Files**: Users can initiate and manage downloads with a user-friendly interface, including specifying download locations and monitoring progress.
-  [Hello](media/image14.png){width="4.46875in" height="4.213928258967629in"}
+  [Hello](/media/image1.png)
 - **Creating New Windows**: The browser supports multiple browser windows for multitasking and easy management of websites and tasks.
 - **Managing Cookies**: Users have control over cookie settings, including enabling/disabling cookies, clearing cookies for specific sites, and managing preferences.
 - **Local Storage**: HTML5 local storage support allows websites to store data on the user\'s device.
