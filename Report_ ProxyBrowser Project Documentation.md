@@ -53,7 +53,7 @@ Currently, we have three repositories: one dedicated to Front-end development, a
             -     nvm use 14.9.0
         - **In Windows**
           - **using nvm(Node Version Manager)**
-            -   To install NVM on a Windows system, you can access the [download link](https://github.com/coreybutler/nvm-windows/releases/download/1.1.11/nvm-setup.exe) for the NVM setup.
+            -   To install NVM on a Windows system, you can use this [download link](https://github.com/coreybutler/nvm-windows/releases/download/1.1.11/nvm-setup.exe) for the NVM setup.
               
             -     nvm install 14.9.0
             -     nvm use 14.9.0
