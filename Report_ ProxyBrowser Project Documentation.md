@@ -36,8 +36,8 @@ Currently, we have three repositories: one dedicated to Front-end development, a
     1.1. **Setting Up the Development Environment**
     Before beginning, it\'s crucial to ensure that your current Node.js and npm versions are compatible with the project\'s requirements. Please follow these steps to prepare your environment:
     -  **To verify your node and yarn version**
-        -       `node --version`
-        - `yarn --version`
+        -     node --version
+        -     yarn --version
     - **How To Install specific node version**
         - ```nvm install 14.9.0``` (nvm is the node version manager)
         - ```nvm use 14.9.0```
