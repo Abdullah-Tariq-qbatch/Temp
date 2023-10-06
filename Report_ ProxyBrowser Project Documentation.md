@@ -64,6 +64,9 @@ Currently, we have three repositories: one dedicated to Front-end development, a
             -     nvm install 14.9.0
             -     nvm use 14.9.0
     - Set env variables through the terminal
+    - **To Install Project dependencies, use the following command:**
+  
+        -     yarn 
     - **To initialize the project in development mode for the first time, please follow these steps:**
       
         -     yarn rebuild
@@ -76,6 +79,9 @@ Currently, we have three repositories: one dedicated to Front-end development, a
     2.1. **Setting Up the Development Environment**
     - Create a file named ".env" at the root level of the folder.
     - Define env variables into it.
+    - **To Install Project dependencies, use the following command:**
+  
+        -     npm install 
     - **To initialize the project in development mode for the first time, please follow these steps:**
       
         -     npm run db:migrate
@@ -213,6 +219,9 @@ Currently, we have three repositories: one dedicated to Front-end development, a
       - **Stripe Integration:** The API seamlessly integrates with Stripe for payment processing, enhancing the payment experience for users and enabling secure transactions.
 4. ### Proxy-Browser
     3.1. **Setting Up the Development Environment**
+    - **To Install Project dependencies, use the following command:**
+  
+        -     npm install
     - **To run the project in development mode, execute the following command:**
    
         -     REACT_SERVER_URL=http://127.0.0.1:3000 yarn dev
