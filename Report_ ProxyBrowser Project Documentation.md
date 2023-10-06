@@ -28,7 +28,6 @@
 
 # Report: ProxyBrowser Project Documentation
 
-<br />
 ## Introduction
 
 1. **Project Overview**
