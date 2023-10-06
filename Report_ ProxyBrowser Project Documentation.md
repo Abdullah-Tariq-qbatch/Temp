@@ -187,13 +187,13 @@ To achieve this functionality, we create a unique time stamped directory for eac
 - **REST API:** In order to ensure a smooth and seamless user experience within our application, we have meticulously developed a REST API that encompasses comprehensive functionalities for all models. For users, it includes features such as registration, login, profile updating, and password reset. Location-related functions comprise location creation, updating, retrieval of user-specific locations, accessing individual locations, and deletion. OTP functionalities encompass OTP generation and validation. Users can also add payment methods, create or revoke plans, and manage sessions through complete CRUD operations. Furthermore, our API is fortified with request validations using Joi schemas and seamlessly integrates with Stripe for payment processing.
   
 ## Development Guidelines
-  1. **Coding Standards**
+1. **Coding Standards**
 
-  ProxyBrowser has been meticulously developed, adhering to industry-leading coding practices, in order to uphold superior code quality and long-term maintainability.
-  3. **Version Control**
+  ProxyBrowser has been meticulously developed, adhering to industry-leading coding practices, in order to uphold superior code quality  and long-term maintainability.
+2. **Version Control**
     
-    We utilise Git and GitHub for version control purposes.
-  3. **Code Review Process**
+  We utilise Git and GitHub for version control purposes.
+3. **Code Review Process**
     
     For code review, we maintain an internal Slack channel dedicated to the process, where we request our team to review our code.
 
