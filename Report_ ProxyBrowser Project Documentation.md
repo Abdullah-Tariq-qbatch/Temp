@@ -105,7 +105,14 @@ Currently, we have three repositories: one dedicated to Front-end development, a
     - **app.js** - The entry point of the Express application where you set up server configurations, middleware, and initialize routes.
 
     2.3. **Implementation Approach**
-    - **Models:** In the proxy-browser-backend, our project incorporates models for User, Location, OTP, PaymentMethod, Plan, and Session,   which directly correspond to the database tables. These models serve as integral components employed consistently throughout the project for querying purposes. The implementation of these models is facilitated by Sequelize, a choice made for its ease of query construction and its inherent safeguard against SQL injection attacks. Additionally, we have opted to employ a MySQL database in conjunction with Sequelize.
+    - **Models:**
+      - **Database Models in proxy-browser-backend:** The project, proxy-browser-backend, includes specific models representing key entities such as User, Location, OTP, PaymentMethod, Plan, and Session.
+      - **Direct Mapping to Database Tables:** Each of these models corresponds directly to respective database tables, ensuring a structured and organized data storage approach.
+      - **Consistent Querying Components:** These models are integral components employed consistently across the project, facilitating data querying operations.
+      - **Utilization of Sequelize:** The implementation of these models is streamlined and made efficient through the use of Sequelize, a database ORM (Object-Relational Mapping) tool.
+      - **Advantages of Sequelize:** Sequelize was chosen for its ease of query construction, simplifying the process of interacting with the database. Additionally, it offers inherent safeguards against SQL injection attacks, enhancing security.
+      - **MySQL Database:** The project employs a MySQL database in conjunction with Sequelize, providing a robust and reliable backend data storage solution.
+   
     - **Attribute Knowledge**
       - **Users**
       
@@ -186,9 +193,25 @@ Currently, we have three repositories: one dedicated to Front-end development, a
             -  A **Session** belongs to a **User**
             -  A **Session** belongs to a **Location**
               
-    - **Stripe:** Our services are offered on a paid basis, and upon user registration, individuals are granted a complimentary 7-day trial period. Following this trial period, users will be billed in accordance with their chosen subscription plan. It is our commitment to ensure that users remain within our application throughout this process, offering a seamless experience. To realize this functionality, we have seamlessly integrated Stripe into our system. Upon user registration, we not only establish them as Stripe customers but also enroll them in our plan, which includes a 7-day trial period. During this time frame, users have the option to securely add their preferred payment method. Subsequently, once the trial period concludes, automatic billing for our services commences. 
-    - **REST API:** In order to ensure a smooth and seamless user experience within our application, we have meticulously developed a REST API that encompasses comprehensive functionalities for all models. For users, it includes features such as registration, login, profile updating, and password reset. Location-related functions comprise location creation, updating, retrieval of user-specific locations, accessing individual locations, and deletion. OTP functionalities encompass OTP generation and validation. Users can also add payment methods, create or revoke plans, and manage sessions through complete CRUD operations. Furthermore, our API is fortified with request validations using Joi schemas and seamlessly integrates with Stripe for payment processing.
-
+    - **Stripe:**
+      - **Paid Services:** The services offered are available on a paid basis.
+      - **Complimentary 7-Day Trial:** Upon user registration, individuals are granted a complimentary 7-day trial period, providing an initial experience without immediate charges.
+      - **Subscription Billing:** After the trial period, users will be billed according to the subscription plan they select.
+      - **Seamless User Experience:** The commitment is to ensure users have a seamless experience, remaining within the application throughout the trial and billing process.
+      - **Integration of Stripe:** Stripe has been seamlessly integrated into the system to facilitate payments and billing.
+      - **User Registration and Stripe:** Upon user registration, they are not only established as Stripe customers but are also enrolled in the subscription plan, which includes the 7-day trial.
+      - **Payment Method Addition:** During the trial period, users have the secure option to add their preferred payment method.
+      - **Automatic Billing:** Once the trial period concludes, automatic billing for the services begins, ensuring uninterrupted access for users who choose to continue with the paid subscription.
+        
+    - **REST API:**
+      - **Meticulously Developed REST API:** A meticulously developed REST API has been created to ensure a smooth and seamless user experience within the application.
+      - **Comprehensive Functionalities:** The API encompasses comprehensive functionalities for all models, addressing various aspects of user interaction and data management.
+      - **User-Related Features:** For users, the API includes features like registration, login, profile updating, and password reset, enhancing user account management.
+      - **Location Functions:** Location-related functions cover activities such as location creation, updating, retrieval of user-specific locations, accessing individual locations, and deletion, facilitating location-based services.
+      - **OTP Handling:** OTP functionalities encompass OTP generation and validation, providing a secure means of user verification.
+      - **Payment Method Management:** Users can add payment methods, create or revoke plans, and manage sessions through complete CRUD (Create, Read, Update, Delete) operations.
+      - **Request Validations:** The API incorporates request validations using Joi schemas, ensuring data integrity and security.
+      - **Stripe Integration:** The API seamlessly integrates with Stripe for payment processing, enhancing the payment experience for users and enabling secure transactions.
 4. ### Proxy-Browser
     3.1. **Setting Up the Development Environment**
     - **To run the project in development mode, execute the following command:**
