@@ -28,8 +28,8 @@
 
 ## Getting Started
 Currently, we have three repositories: one dedicated to Front-end development, another for Back-end, and a third one specifically for the browser.
-- Front-End: \"**proxy-browser**\".
-- Back-End: \"**proxy-browser-backend**\".
+- Front-End: \"**proxy-browser**\"
+- Back-End: \"**proxy-browser-backend**\"
 - Browser: \"**wexond-browser-extended**\"
 
 1. ### Wexond-Browser-Extended 
