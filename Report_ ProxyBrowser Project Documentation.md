@@ -191,24 +191,13 @@ To achieve this functionality, we create a unique time stamped directory for eac
 1. **Coding Standards**
 
     ProxyBrowser has been meticulously developed, adhering to industry-leading coding practices, in order to uphold superior code quality  and long-term maintainability.
-   - [wexond-browser-extended](https://github.com/qbatch/wexond-browser-extended)
-   - [proxy-browser-backend](https://github.com/qbatch/proxy-browser-backend)
-   - [proxy-browser](https://github.com/qbatch/proxy-browser)
 2. **Competitor**
    
-    One of our primary competitors in the market is [Mirage](https://mirageid.com/)
-  
-## Development Guidelines
-1. **Coding Standards**
-
-  ProxyBrowser has been meticulously developed, adhering to industry-leading coding practices, in order to uphold superior code quality  and long-term maintainability.
-2. **Version Control**
-    
-  We utilise Git and GitHub for version control purposes.
+    We utilise Git and GitHub for version control purposes.
 3. **Code Review Process**
-    
+   
     For code review, we maintain an internal Slack channel dedicated to the process, where we request our team to review our code.
-
+  
 ## Additional Resources
 1. **Relevant Links**
 
