@@ -123,7 +123,7 @@ Currently, we have three repositories: one dedicated to Front-end development, a
 ## Project Overview
 1. ### Project Goals
     The goal of the ProxyBrowser - Wexond Browser Extended project is to develop a feature-rich, user-friendly web browser application with enhanced privacy, security, and customization options. The project aims to provide users with a versatile and personalized browsing experience, while also prioritizing their online privacy and data security.
-2. ### Key Features Along User Interface
+2. ### Key Features Along with User Interface
     Explore the core features of ProxyBrowser, including user authentication, proxy management, dedicated proxies, and more.
 - **Separate Browser Instance**: Users can enjoy a dedicated and separate browser environment to maintain privacy and avoid interference with their main browsing session.
 - **Downloading Files**: Users can initiate and manage downloads with a user-friendly interface, including specifying download locations and monitoring progress.
