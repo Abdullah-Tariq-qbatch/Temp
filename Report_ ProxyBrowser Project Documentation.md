@@ -114,36 +114,53 @@ Currently, we have three repositories: one dedicated to Front-end development, a
     Explore the core features of ProxyBrowser, including user authentication, proxy management, dedicated proxies, and more.
 - **Separate Browser Instance**: Users can enjoy a dedicated and separate browser environment to maintain privacy and avoid interference with their main browsing session.
 - **Downloading Files**: Users can initiate and manage downloads with a user-friendly interface, including specifying download locations and monitoring progress.
-![Browser Download Settings Screen](/media/image11.png){width="4.46875in" height="4.213928258967629in"}
+![Browser Download Settings Screen](/media/image11.png)
 - **Creating New Windows**: The browser supports multiple browser windows for multitasking and easy management of websites and tasks.
+![Browser Screen with multiple windows](/media/image11.png)
 - **Managing Cookies**: Users have control over cookie settings, including enabling/disabling cookies, clearing cookies for specific sites, and managing preferences.
 - **Local Storage**: HTML5 local storage support allows websites to store data on the user\'s device.
 - **Search Engine Settings**: Users can select their preferred search engine from a list of options, with Google as the default engine.
+![Browser Search Engine Setting Screen](/media/image9.png)
 - **Keyboard Shortcuts**: Enhanced keyboard shortcuts improve navigation efficiency, including tab management.
 - **Proxy Support**: The browser offers support for a Las Vegas proxy, enabling IP address and location changes for enhanced privacy and access to geo-restricted content.
 - **User Data and Sessions Isolation**: Each user\'s interactions are isolated, ensuring privacy and security. Separate directories and settings are created for each user.
 - **Login/Sign up Functionality:**
     -  **Sign In**: Users can seamlessly access their accounts through a user-friendly interface by entering their credentials.
     -  **Sign Up**: New users can register securely, enabling enhanced features and personalised settings.
+![Sign In Screen](/media/image8.png)
+![Sign Up Screen](/media/image14.png)
 - **Forgot Password Functionality:**
     -  **User Requests Password Reset**: Users can initiate a password reset by providing their email.
     -  **Send OTP (One-Time Password)**: A unique OTP is sent to the user\'s email for verification.
     -  **Enter OTP and Set New Password**: Users enter the OTP, set a new password, and regain access securely.
+![Forgot Password Screen](/media/image5.png)
+![OTP Code Screen](/media/image4.png)
+![Set New Password Screen](/media/image7.png)
 - **Dashboard for Unique Proxies:**
     -  **Proxies Overview**: Users can monitor real-time proxy usage, performance, and status.
     -  **Filtering Capabilities**: Customizable data views with powerful filtering options based on location, speed, reliability, and more.
     -  **Proxy Management**: Easily add, edit, or remove unique proxies directly from the dashboard.
+![Dashboard Screen](/media/image2.png)
 - **Creating A New Location:**
     -  **Name Your Location**: Users can name their new location for easy identification.
     -  **Set the Home Page URL**: Specify the home page URL for the new location.
     -  **Select the Country**: Choose the associated country from a dropdown menu.
+![Create Location Screen](/media/image6.png)
 - **Edit/Delete A Location:** Users can access and manage created locations within the dashboard, edit/update location details, including name, URL, or country selection.
+![Edit Location Screen](/media/image3.png)
 - **Dedicated Proxy:** Exclusive access to dedicated proxies ensures privacy, data security, and unrestricted browsing. Users can customise and configure dedicated proxies to meet their specific needs.
+![Dashboard Screen](/media/image1.png)
 - **History Keeping:** Users can access, search, filter, sort, and organise their browsing history for a personalised experience.
+![Browser History Screen](/media/image16.png)
 - **Tracking Protection:** The browser proactively identifies and blocks intrusive tracking technologies to safeguard online privacy. Users can tailor their privacy settings to match their preferences.
+![Browser Privacy Settings Screen](/media/image15.png)
 - **Marking Page as Bookmark:** Users can mark web pages as bookmarks, making it easy to access and organise favourite and frequently visited websites.
+![Browser Window with Bookmark Pop-up](/media/image13.png)
+![Browser Bookmarks Screen](/media/image10.png)
 - **Incognito Window:** Incognito Windows prioritise user privacy by not recording browsing history, storing cookies, cached data, or autofill data.
+![Browser Incognito Screen](/media/image10.png)
 - **Browser Theme Settings:** Users can select themes (light, dark, custom) and customise the top bar variant and bookmarks settings.
+![Browser Incognito Screen](/media/image12.png)
 - **Search Engine**: In wexond-browser there is an option for the user to select his search engine on a list of search engines provided. Previously the default engine was duckduckgo and now we have changed it to google, So now the default engine is google in our extended version. 
 We achieve this by changing the settings data. First when a project runs it will store the settings data, cookies and local storage to a specific directory related to each user, After that It will read from that directory only, So to achieve this we have to remove settings and then make the build of the project again.
 - **Keyboard Shortcuts**: In the extended version of Wexond Browser, additional keyboard shortcuts are introduced to enhance the user\'s browsing experience. Shortcuts can include actions like navigating between tabs, opening new tabs, closing tabs, and more. These shortcuts improve efficiency and navigation for power users. Users can manage multiple open tabs efficiently. They can switch between tabs using keyboard shortcuts or mouse interactions, reorder tabs, and close tabs as needed. Tab management is a crucial feature for users who regularly work with multiple websites simultaneously.
