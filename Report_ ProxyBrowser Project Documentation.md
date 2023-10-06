@@ -43,22 +43,26 @@ Currently, we have three repositories: one dedicated to Front-end development, a
         - ```nvm install 14.9.0``` (nvm is the node version manager)
         - ```nvm use 14.9.0```
     - Set env variables through terminal
-    - **To initialise the project in development mode for the first time, please follow these steps:** 
-        - ```yarn rebuild```
-        - ```yarn dev```
+    - **To initialise the project in development mode for the first time, please follow these steps:**
+      
+        -     yarn rebuild
+        -     yarn dev
     - **For subsequent runs in development mode, use the following command:**
-        - ```yarn dev```
+      
+        -     yarn dev
 
 2. ### Proxy-Browser-Backend
     2.1. **Setting Up the Development Environment**
     - Create a file named ".env" at the root level of the folder.
     - Define env variables into it.
     - **To initialise the project in development mode for the first time, please follow these steps:**
-        - ```npm run db:migrate```
-        - ```npm run stripe:seeder```
-        - ```npm run dev```
+      
+        -     npm run db:migrate
+        -     npm run stripe:seeder
+        -     npm run dev
     - **For subsequent runs in development mode, use the following command:**
-        - ```npm run dev```
+      
+        -     npm run dev
     - **If you need to make changes to the database through migrations, perform the following steps:**
         - ```npm run generate-migration -- --name <migration-name>```
         - ```npm run db:migrate```
