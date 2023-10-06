@@ -125,9 +125,13 @@ Currently, we have three repositories: one dedicated to Front-end development, a
         - **component** - Within this directory, you\'ll find the React components utilised in constructing pages.
         - **pages** - This directory houses the pages, which serve as containers for the React components.
 
+    3.3. **Implementation Approach**
+     - **JSX:** To achieve a dynamic and versatile user interface, we harnessed the power of JSX (JavaScript XML) in conjunction with the React framework. This strategic choice empowered us to create highly dynamic user interfaces and to break down these interfaces into modular components, fostering code reusability. By leveraging JSX and React's capabilities, we were not only able to craft fluid and responsive displays but also to encapsulate functionality within reusable components, optimizing the efficiency and maintainability of our codebase. This approach not only promotes a more dynamic user experience but also streamlines the development process, ultimately enhancing code maintainability and extensibility for future iterations of our project.
+     - **MUI:** In our development process, we expedited our workflow by integrating Material UI components into our project architecture. This allowed us to leverage a rich array of meticulously crafted, pre-optimized components. These components not only significantly accelerated our development pace but also provided the flexibility to tailor their appearance to align seamlessly with our project's theme requirements. By harnessing the power of Material UI, we ensured a cohesive and polished user interface while streamlining our development efforts. 
+
 ## Project Overview
 1. ### Project Goals
-    The goal of the ProxyBrowser - Wexond Browser Extended project is to develop a feature-rich, user-friendly web browser application with enhanced privacy, security, and customization options. The project aims to provide users with a versatile and personalized browsing experience, while also prioritizing their online privacy and data security.
+    The goal of the ProxyBrowser project is to develop a feature-rich, user-friendly web browser application with enhanced privacy, security, and customization options. The project aims to provide users with a versatile and personalized browsing experience, while also prioritizing their online privacy and data security.
 2. ### Key Features Along with User Interface
     Explore the core features of ProxyBrowser, including user authentication, proxy management, dedicated proxies, and more.
 - **Separate Browser Instance**: Users can enjoy a dedicated and separate browser environment to maintain privacy and avoid interference with their main browsing session.
