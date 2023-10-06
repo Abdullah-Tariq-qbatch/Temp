@@ -64,10 +64,12 @@ Currently, we have three repositories: one dedicated to Front-end development, a
       
         -     npm run dev
     - **If you need to make changes to the database through migrations, perform the following steps:**
-        - ```npm run generate-migration -- --name <migration-name>```
-        - ```npm run db:migrate```
+      
+        -     npm run generate-migration -- --name <migration-name>
+        -     npm run db:migrate
     - **To revert changes made by a migration, use the command:**
-        - ```npm run db:migrate:undo```
+      
+        -     npm run db:migrate:undo
 
     2.2. **Project Structure**
     The project adheres to a standard directory structure typical of a **Node.js/Express** backend project. It is organised as follows:
@@ -84,7 +86,8 @@ Currently, we have three repositories: one dedicated to Front-end development, a
 3. ### Proxy-Browser
     3.1. **Setting Up the Development Environment**
     - **To run the project in development mode, execute the following command:**
-        - ```REACT_SERVER_URL=http://<device_ip_address>:3000 yarn dev```
+   
+        -     REACT_SERVER_URL=http://<device_ip_address>:3000 yarn dev
 
     3.2. **Project Structrue**
     The project follows a directory structure similar to that of a basic **React App**. It is organised as follows:
