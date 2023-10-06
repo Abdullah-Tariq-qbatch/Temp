@@ -161,7 +161,18 @@ Currently, we have three repositories: one dedicated to Front-end development, a
 
          - **Associations**
             -  PaymentMethods **many-to-one** Users
-         
+
+       - **Plans**
+         | Attribute Name | Possible Values | Description |
+         | ------------ | ------------ | ------------ |
+         | amount | Numeric String | The amount paid by the user for the plan |
+         | buying_date | Date | Date at which amount was paid by the user  |
+         | expiry_date | Date | Date at which plan will be expired |
+         | subscription_id | String | Stripe Subscription ID of the user |
+         | status | "active", "cancelled" | Whether plan is currently active or cancelled by the user |
+
+          - **Associations**
+            -  Plans **many-to-one** Users
     - **Stripe:** Our services are offered on a paid basis, and upon user registration, individuals are granted a complimentary 7-day trial period. Following this trial period, users will be billed in accordance with their chosen subscription plan. It is our commitment to ensure that users remain within our application throughout this process, offering a seamless experience. To realize this functionality, we have seamlessly integrated Stripe into our system. Upon user registration, we not only establish them as Stripe customers but also enroll them in our plan, which includes a 7-day trial period. During this time frame, users have the option to securely add their preferred payment method. Subsequently, once the trial period concludes, automatic billing for our services commences. 
     - **REST API:** In order to ensure a smooth and seamless user experience within our application, we have meticulously developed a REST API that encompasses comprehensive functionalities for all models. For users, it includes features such as registration, login, profile updating, and password reset. Location-related functions comprise location creation, updating, retrieval of user-specific locations, accessing individual locations, and deletion. OTP functionalities encompass OTP generation and validation. Users can also add payment methods, create or revoke plans, and manage sessions through complete CRUD operations. Furthermore, our API is fortified with request validations using Joi schemas and seamlessly integrates with Stripe for payment processing.
 
