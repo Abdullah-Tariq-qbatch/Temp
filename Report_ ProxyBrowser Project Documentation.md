@@ -15,7 +15,7 @@
 ## Introduction
 
 1. ### Project Overview
-    ProxyBrowser represents a web browsing application developed to prioritize user security as its core principle. With an unwavering commitment to enhancing the online experience, ProxyBrowser offers a comprehensive suite of features that have been thoughtfully customized to cater to the discerning needs of individuals who value privacy and seek a high degree of control over their online activities. By seamlessly integrating state-of-the-art security measures and a rich feature set, ProxyBrowser ensures that users can navigate the web with confidence, safeguarding their digital presence while optimizing their browsing experience.asda
+    ProxyBrowser represents a web browsing application developed to prioritize user security as its core principle. With an unwavering commitment to enhancing the online experience, ProxyBrowser offers a comprehensive suite of features that have been thoughtfully customized to cater to the discerning needs of individuals who value privacy and seek a high degree of control over their online activities. By seamlessly integrating state-of-the-art security measures and a rich feature set, ProxyBrowser ensures that users can navigate the web with confidence, safeguarding their digital presence while optimizing their browsing experience.asdadasdsa
 
 2. ### Purpose of Documentation
     The purpose of this documentation is to provide a clear understanding of the ProxyBrowser project, its functionality, development processes, and how to contribute to its growth. It serves as a reference for developers, contributors, and users.
